@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.027">
+    <testcase classname="Place the order for Products" name="Add the searched product in the bag and proceed to checkout" time="8.766">
+        <system-out><![CDATA[Given User is on GreenCart Landing Page.....................................passed
+When user searched with short name Tom and extract actual name of the product.passed
+And added "3" items of the selected product to the cart.....................passed
+Then user proceeds to checkout and validate the Tom items in checkout page..passed
+And Verify if user has ability to enter promo code and place the order......passed
+]]></system-out>
+    </testcase>
+</testsuite>
