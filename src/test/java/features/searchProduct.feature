@@ -1,5 +1,5 @@
 Feature: Search and place the order for Product
-
+@RegressionTest
 Scenario Outline: Search Experience for product search in both home and offers page
 Given  User is on GreenCart Landing Page
 When user searched with short name <Name> and extract actual name of the product
